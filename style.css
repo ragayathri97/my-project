@@ -1,0 +1,486 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Zoho Puvi';
+}
+h1,h2,h3,h4,h5{
+    margin: 0 0 15px;
+}
+h1{
+    font-size: 50px;
+    max-width: 750px;
+    margin: 0 auto 15px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 35px;
+}
+p{
+    font-size: 17px;
+    margin: 0 0 20px;
+    line-height: 1.5;
+}
+img{
+    width: 100%;
+}
+.content-width{
+    max-width: 1070px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+.flex-element{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+/* streamlining-collaboration */
+.streamlining-collaboration{
+    background: #0D0225;
+    color: #fff;
+    text-align: center;
+}
+.streamlining-collaboration p{
+    max-width: 690px;
+    margin: 0 auto 20px;
+}
+.streamlining-collaboration a,.free-days a{
+    display: inline-block;
+    color: #fff;
+    background-color: #F0483E;
+    padding: 15px 45px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.streamimg-one{
+    max-width: 750px;
+    margin:  40px auto;
+}
+/* streamlining-collaboration */
+
+/* white-box */
+.white-box{
+    position: relative;
+    z-index: 1;
+}
+.white-li-content{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.white-li-content ul li{
+    list-style: none;
+}
+.white-li-content li{
+    width: 30%;
+    padding-left: 30px;
+    position: relative;
+}
+.white-li-content li::before{
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    border: 1px solid #00C62B;    
+}
+.white-li-content li::after{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 4px;
+    top: 6px;
+    left: 6px;
+    border-bottom: 1px solid #00C62B;
+    border-left: 1px solid #00C62B;
+    transform: rotate(-45deg);
+}
+.white-box::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: #0D0225;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.white-box::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: #EBDFFA;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+/* white-box end */
+
+/* meeting-sec-banner */
+.meeting-sec-banner{
+    background: #EBDFFA;
+}
+.meetinglr>div{
+    width: 48%;
+}
+.meetinglr a{
+    display: inline-block;
+    text-decoration: none;
+    color: #00C62B;
+    border-bottom: 2px solid #00C62B;
+    font-weight: bold;
+}
+/* meeting-sec-banner */
+
+/* zoho-booking-schedule */
+.zoho-schedule-heading h2{
+    max-width: 600px;
+    margin: 0 auto 15px;
+    text-align: center;
+}
+.zb-para{
+    max-width: 690px;
+    margin: 0 auto 90px;
+    text-align: center;
+}
+.choose-work,.sevice-duration,.pricing,.enhance,.assigning{
+    padding: 60px 0;    
+}
+.choose-work-left,.sevice-duration-rigth,.pricing-left,.enhance-right,.assigning-left{
+    width: 35%;
+}
+.choose-work-right,.sevice-duration-left,.pricing-right,.enhance-left,.assigning-right{
+    width: 60%;
+}
+.choose-work-right>div,.pricing-right>div,.enhance-left>div{
+    max-width: 550px;
+}
+.sevice-duration-left>div{
+    max-width: 500px;
+}
+.assigning-right img{
+    max-width: 600px;
+}
+.choose-work-right img,.pricing-right img,.assigning-right img{
+    padding-left: 40px;
+}
+.assigning{
+    padding-bottom: 0px;
+}
+/* zoho-booking-schedule end */
+
+/* explore-features */
+.explore-features{
+    background: #0D0225;
+    color: #fff;
+    text-align: center;
+}
+.explore-li{
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.explore-li li{
+    position: relative;
+    list-style: none;
+    padding: 10px 40px;
+    border: 1px solid #fff;
+    border-radius: 35px;
+}
+.explore-li li:hover{
+    color: #00C62B;
+    border: 1px solid #00C62B;
+}
+/* .explore-li li::before:hover{
+    content: '';
+    position: absolute;    want to ask ------>
+    width: 10px;
+    height: auto;
+    border-bottom: 1px solid #00C62B;
+
+} */
+/* explore-features end */
+
+/* business-worldwide */
+.business-worldwide{
+    background: #F5EFFF;
+}
+.business-worldwide h4{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.business-worldwide h4::before{
+    content: '--------';
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    top: -1px;
+    left: 285px;
+    z-index: -1;
+}
+.business-worldwide h4::after{
+    content: '--------';
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    top: -2px;
+    right: 284px;
+    z-index: -1;
+}
+.business-flex li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    background: red;
+    width: 18%;
+}
+.business-flex{
+    padding-bottom: 70px;
+}
+/* business-worldwide end */
+
+/* eight-m */
+.eight-m-content{
+    max-width: 950px;
+    margin: 0 auto;
+    background: #5734D3;
+    padding: 90px;
+    border-radius: 10px;
+    color: #fff;
+}
+.eight-m-content>div{
+    width: 48%;
+}
+/* eight-m end */
+
+/* scheduling-business-stories */
+.scheduling-business-stories{
+    background: #EBDFFA;
+}
+.scheduling-business-stories h2{
+    max-width: 500px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.business-left{
+    width: 35%;
+    text-align: center;
+}
+
+.business-right{
+    width: 65%;
+}
+.business-left img{
+    padding: 10px;
+    border-radius: 30px;
+    max-width: 150px;
+}
+.business-right{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.business-right a{
+    display: inline-block;
+    padding: 10px 80px 10px 30px;
+    background: #00C62B;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+.business-right a::before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: auto;
+    border-bottom: 2px solid #fff;
+    top: 17px;
+    right: 35px;
+    z-index: -1;
+}
+.business-right a::after{
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(-45deg);
+    top: 13px;
+    right: 35px;
+    z-index: -1;
+}
+/* scheduling-business-stories end */
+
+/* free-days */
+.free-days .content-width{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width: 1400px){
+
+}
+
+@media (max-width: 1200px){
+    .content-width{
+        width: 90%;
+    }
+    .white-box::before{
+        top: -1px;
+    }
+    .business-worldwide h4::before{
+        display: none;
+    }
+    .business-worldwide h4::after{
+        display: none;
+    }
+    .eight-m-content {
+        padding: 75px;
+    }
+
+}
+
+@media (max-width: 990px){
+    h1 {
+        font-size: 45px;
+        max-width: 700px;
+        margin: 0 auto 15px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .streamimg-one {
+        margin: 40px 40px 0px;
+}
+.streamlining-collaboration p {
+    max-width: 650px;
+}
+.zoho-schedule-heading h2 {
+    max-width: 550px;
+    margin: 0 auto 15px;
+}
+
+.zb-para {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.choose-work, .sevice-duration, .pricing, .enhance, .assigning {
+    padding: 40px 0;
+}
+.assigning-right img {
+    max-width: 500px;
+}
+.sevice-duration-left>div {
+    max-width: 400px;
+}
+.choose-work-right>div, .pricing-right>div, .enhance-left>div {
+    max-width: 450px;
+}
+.white-li-content {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.choose-work-right img, .pricing-right img, .assigning-right img {
+    padding-left: 0px;
+}
+}
+
+@media (max-width: 770px){
+    .choose-work-left, .sevice-duration-rigth, .pricing-left, .enhance-right, .assigning-left {
+        width: 100%;
+    }
+    .choose-work-right, .sevice-duration-left, .pricing-right, .enhance-left, .assigning-right {
+        width: 100%;
+    }
+    .choose-work, .sevice-duration, .pricing, .enhance, .assigning {
+        padding: 20px 0;
+    }
+    .assigning {
+        padding:0px;
+    }
+    .eight-m-content {
+        padding: 40px;
+    }
+    .business-left {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .business-right {
+        width: 100%;
+    }
+    .explore-li li{
+        margin: 0 15px 15px 0;
+    }
+    .eight-m-content>div {
+        width: 100%;
+        text-align: center;
+}
+.explore-features .content-width{
+    padding: 50px 0;
+}
+}
+
+@media (max-width: 576px){
+    h1 {
+        font-size: 40px;
+        max-width: 550px;
+    }
+    .streamlining-collaboration a, .free-days a {
+        display: inline-block;
+        color: #fff;
+        background-color: #F0483E;
+        padding: 10px 35px;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+    .white-li-content li {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .meetinglr>div {
+        width: 100%;
+    }
+    .assigning-right img {
+        max-width: 400px;
+    }
+}
+
+
+@media (max-width: 480px){
+    .choose-work-right>div, .pricing-right>div, .enhance-left>div {
+        max-width: 390px;
+    }
+    h1 {
+        font-size: 37px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .streamlining-collaboration a, .free-days a {
+        padding: 10px 25px;
+    }
+    
+}
+
+
+@media (max-width: 320px){
+    
+}
